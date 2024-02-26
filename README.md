@@ -2,7 +2,17 @@
 
 
 tokenizer
-![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/98a48d8d-7c1a-44f1-9f21-dde3584bd3d3)
+
+bpe tokenizer 자주 사용되는 낱말의 연속을 하나로 묶음
+![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/fac54d22-dff8-4bf2-a74d-18dc11efddd8)
+
+sentencepiece
+![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/470e1d48-bc89-4af0-9886-c98724375266)
+
+한국어 tokenizer는 본 적 없음
+![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/ab5ef23a-f352-4faa-9922-b258fc3cd07c)
+
+
 
 대표적인 언어모델 bert, gpt
 
@@ -16,7 +26,7 @@ transformer의 decoder 기반 모델
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/c2b74ef2-51be-4bf6-a538-74e0821d8d60)
 
 
-최근 가장 성능 좋은 llama, MOE(mixture of mistral)
+최근 가장 성능,효율 좋은 llama, MOE(mixture of mistral)
 
 
 
@@ -44,15 +54,18 @@ sparse mixture of experts
 
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/d82a0783-6ddf-4562-ba08-134f1c1f924b)
 
+![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/98a48d8d-7c1a-44f1-9f21-dde3584bd3d3)
+
+
 
 
 
 multimodal llm 
-
-llava
 텍스트 이미지 오디오 모두 사용하는 언어모델
 
-llava text+ image - embedding방식이 stable diffusion과 유사
+
+llava 
+text + image - embedding방식이 stable diffusion과 유사
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/4d65831c-e04e-403f-b7a4-d1542a329136)
 
 
