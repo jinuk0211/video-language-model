@@ -6,7 +6,9 @@ tokenizer
 bpe tokenizer 자주 사용되는 낱말의 연속을 하나로 묶음
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/fac54d22-dff8-4bf2-a74d-18dc11efddd8)
 
+
 sentencepiece
+
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/470e1d48-bc89-4af0-9886-c98724375266)
 
 한국어 tokenizer는 본 적 없음
