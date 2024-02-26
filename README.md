@@ -12,7 +12,8 @@ transformer 의 인코더만을 사용
 
 
 gpt -
-transformer의 decoder 블럭 사용 
+transformer의 decoder 기반 모델 
+![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/c2b74ef2-51be-4bf6-a538-74e0821d8d60)
 
 
 최근 가장 성능 좋은 llama, MOE(mixture of mistral)
@@ -32,7 +33,6 @@ normalization방법 layernorm- RMSnorm
 
 
 mistral 7b moe
-다양한 task를 expert로 세분화해서 수행
 
 특징 
 multihead attention - sliding attention,rolling buffer cache/prefill and chunking(kv cache) llama 와 같음
@@ -40,11 +40,16 @@ multihead attention - sliding attention,rolling buffer cache/prefill and chunkin
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/606a7d26-00c1-4029-a1af-86a2cd38f870)
 
 sparse mixture of experts
+다양한 task를 expert로 세분화해서 수행
 
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/d82a0783-6ddf-4562-ba08-134f1c1f924b)
 
 
+
+
 multimodal llm 
+
+llava
 텍스트 이미지 오디오 모두 사용하는 언어모델
 
 llava text+ image - embedding방식이 stable diffusion과 유사
