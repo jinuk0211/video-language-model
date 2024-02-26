@@ -20,11 +20,13 @@ sentencepiece
 
 bert - bidirectional representations from transformers
 transformer 의 인코더만을 사용
+
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/3cf1fc2e-af6e-4b6d-bc40-c7b59b965050)
 
 
 gpt -
 transformer의 decoder 기반 모델 
+
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/c2b74ef2-51be-4bf6-a538-74e0821d8d60)
 
 
@@ -68,6 +70,7 @@ multimodal llm
 
 llava 
 text + image - embedding방식이 stable diffusion과 유사
+
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/4d65831c-e04e-403f-b7a4-d1542a329136)
 
 
