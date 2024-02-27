@@ -27,7 +27,13 @@ transformer 의 인코더만을 사용
 gpt -
 transformer의 decoder 기반 모델 
 
+번외) chatgpt에 사용되는 rag
 ![image](https://github.com/jinuk0211/tokenizer-mini_byte_pair_encoding/assets/150532431/c2b74ef2-51be-4bf6-a538-74e0821d8d60)
+RHHF reinforcement learning from human feed back
+PPO - proxial policy optimization
+![image](https://github.com/jinuk0211/video-language-model/assets/150532431/a448d43f-fff8-4665-a7c0-755abe122ee6)
+
+![image](https://github.com/jinuk0211/video-language-model/assets/150532431/1f7391b9-5bbb-4794-8ffb-a01f2a44007c)
 
 
 최근 가장 성능,효율 좋은 llama, MOE(mixture of mistral)
